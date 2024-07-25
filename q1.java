@@ -3,7 +3,7 @@ public class LCS {
         String str1 = "abcde";
         String str2 = "ace";
         String lcs = findLCS(str1, str2);
-        System.out.println("Longest Common Subsequence: " + lcs);
+        System.out.println("Longest Common Subsequence : " + lcs);
     }
     public static String findLCS(String str1, String str2) {
         int m = str1.length();
